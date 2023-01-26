@@ -14,58 +14,168 @@
       <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
-      <section class="card" id="html-section">
+      <section class="card1" id="html-section">
 
       <h2>HTML</h2>
 
       <ul>
 
+        <li>Hypertext Markup Language (HTML).</li>
+
+        <li>Defines the basic framework for the page and the elements we want to appear on it.</li>
+
+        <li>HTML does not determine the styling, specific layout, or make the page interactive.</li>
+
+        <li>Defines Text Elements on the page, images on the page, the order in which the elements appear on the page and which text elements are the primary and secondary headings.</li>
+
+        <li>Elements are part of a webpage that holds content or performs a specific task.</li>
+
+        <li>HTML Elements are usually made up of opening tag and a closing tag.</li>
+        
+        <li>All HTML documents are composed of an html element that contains a head and body element.</li>
+
         <li>The head element contains information about the webpage.</li>
 
+        <li>Included in the head element are the title, style, link, meta, script, and noscript elements.</li>
+
         <li>The body element represents the visible content shown to the user.</li>
+
+        <li>Inside the body element h1, h2, h3, h4, h5 and h6 elements represent the level of the heading.</li>
+
+        <li>Other elements included in the body element are p, strong, em, br, img, a, ul, ol, and li.</li>
+
+        <li>There are also Semantic Elements that are often used to divide a page.</li>
+
+        <li>Semantic Elements include article, aside, details, figcaption, figure, footer, header, main, nav, and section elements.</li>
+
+        <li>HTML attributes are used to provide additonal information about an element.</li>
+
+        <li>Global attributes are attributes that can be used on any element, although they might not have an impact on or change some elements.</li>
+
+        <li>Common global attributes are data-*, dir, lang, style, class, and id.</li>
+
+        <li>Non-Global Attributes are other elements that can only be used with specific elements.</li>
+
+        <li>The common element-specific attributes include alt, href, placeholder, src, and value.</li>
 
       </ul>
 
       </section>
    
-      <section class="card" id="css-section">
+      <section class="card2" id="css-section">
         
         <h2>CSS</h2>
 
         <ul>
 
+          <li>Cascading Style Sheets (CSS)</li>
+
+          <li>A stylesheet language used to describe the presentation of a document written in HTML or XML</li>
+
+          <li>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
+
+          <li>Inline CSS is used when a you want to style an element directly in the HTML file.</li>
+
+          <li>Inline Styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only.</li>
+
+          <li>Internal CSS style sheet contains CSS rules for the webpage in the head section of the HTML file.</li>
+
+          <li>The Internal style sheet rules only apply to that page, and you can configure CSS classes and IDs, which are used to identify elements, to style multiple elements in the page code.</li>
+
+          <li>External CSS Style sheets are the most common, it allows you do keep all CSS rules in a separate file, which makes design changes easier.</li>
+
+          <li>When using an external style sheet you will use a link element placed in the HTML's head.</li>
+
+          <li>Rules or Declarations contain two important commponents: the CSS property we want to apply and the value of the property.</li>
+
+          <li>An example the declaration color:red; includes CSS property color and the value for that property, red.</li>
+
+          <li>Other CSS rule examples are margin and padding.</li>
+
           <li>A margin indicates how much space we want around the outside of an element.</li>
 
           <li>A padding indicates how much space we want around the content inside an element.</li>
+
+          <li>The CSS box model- every HTML element is essentially a box. Each box consists of margins outside the element, and the element's borders, padding, and content.</li>
+
+          <li>CSS determines the styles of a webpage in order to make it visually appealing and can also make a website simpler to use with a polished design.</li>
 
         </ul>
    
       </section>
    
-      <section class="card" id="git-section">
+      <section class="card3" id="git-section">
 
         <h2>Git</h2>
 
         <ul>
 
-          <li>git status: checks what branch we are currently on</li>
+          <li>Git is the free and open source distibuted version control system that's responsible for everything GitHub related that happens locally on your computer.</li>
 
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git status: Checks what branch we are currently on</li>
+
+          <li>git checkout -b branch-name: Creates a new branch and switches to it</li>
+
+          <li>git add -A: The add command adds modifications in the current working branch to the staging area and the -A flag indicates that we want to add all changes</li>
+
+          <li>git commit -m "describe what commit contains": Commits the staged files to be commited with a commit messge that describes what the commit contains</li>
+
+          <li>git pull origin main: Uses the pull command to receive a branches modifications into the local environment. The origin keyword indicates the source of the pull will be in the GitHub repo. The main keyword indicates the branch</li>
+
+          <li>git push origin feature/starter-code: In this example we are using the command to push the changes we have locally to our remote GitHub branch</li>
 
         </ul>
    
       </section>
    
-      <section class="card" id="javascript-section">
+      <section class="card4" id="javascript-section">
 
         
         <h2>JavaScript</h2>
 
         <ul>
 
+          <li>JavaScript is a powerful language that can add interactivity to a website.</li>
+
+          <li>Using JavaScript you can power your websites with effects, interactivity, data communication, and much more.</li>
+
           <li>A variable is a named container that allows us to store data in our code.</li>
 
+          <li>You start by declaring a variable with the let keyword, followed by the name you give the variable.</li>
+
+          <li>A semicolon at the end of a line indicates where a statement ends.</li>
+
+          <li>JavaScript is case sensitive meaning myVariable is not the same as myvariable.</li>
+
+          <li>After declaring a variable, you can give it a value: myVariable = "Bob";</li>
+
+          <li>You retrieve the value by calling the variable name: myVariable;</li>
+
+          <li>After assigning a value to a variable, you can change it later in the code: let myVariable = "Bob"; myVariable = "Steve";</li>
+
+          <li>You can do both declaring a variable and give it a value on the same line: let myVariable = "Bob";</li>
+
+          <li>Variables may hold values that have different data types: String(sequence of text), Number(numbers), Boolean(true/false value), Array(structure that allows you to store multiple values in single reference), Object(can be anything)</li>
+
+          <li>You can make comments of text that can be be added along with code and the browser ignores the text marked as comments using /*and then closing with */. With no line breaks you can use // in front of your comment.</li>
+          
+          <li>An operator is a mathematical sybol that produces a result based on two values(or variables).</li>
+
+          <li>Some simple operators used in JavaScript are Addition(+), Subtraction(-), Multiplication(*), Division(/), Assignment(=), Strict Equality(===), Not(!), Does Not Equal(!==)</li>
+          
+          <li>Conditionals are code structures used to test if an expression returns true or not.</li>
+
+          <li>A very common form of conditionals is the if...else statement.</li>
+
+          <li>Functions are a way of packaging functionality that you wish to reuse.</li>
+
+          <li>Events are code structures that listen for activity in the browser and run code in response.</li>
+
           <li>Control flow is the order in which a computer executes code in a script.</li>
+
+          <li>In JavaScript, code runs from the first statement at the top of the page, down to the last statement at the bottom of the page.</li>
+
+          <li>Control flow can be interrupted. We can use conditional statements and loops to control the order in which code is executed, or if it is even executed at all.</li>
 
         </ul>
    
